@@ -16,7 +16,8 @@ This laravel web application has the following:
 ## How to install this application on your server/pc
 
 - Make sure that you have Apache, MySQL and PHP installed on your machine - the latest version preferrably
-- Create a MySQL database and assigned a user to it
+- Create a MySQL database and assigned a user (with the privilieges) to it
 - Clone this project into a specific folder in your web directory. You will need to have Git installed in your machine to clone the project
 - Open the .env file and update the necessary configuration changes such as application name and database information.
-- From the command line, being in the project folder, execute database migation abd seeder
+- From the command line, being in the project folder, execute database migation and seeder
+- The web applcation can be run by typing php artisan serve from the command line (within the root directory of the project)
