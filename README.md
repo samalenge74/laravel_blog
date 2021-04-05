@@ -1,24 +1,25 @@
 
 
-## About Laravel
+## Laravel Blog
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This blog was developed as an assessment of my development skills and experience for a job application.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+This laravel web application has the following:
+
+- User can login and/or register 
+- Registered users are by default authors and can create new blogs
+- All blogs are listed on the landing page and can be viewed by all
+- Only logged in users can post comments and/or rate a blog
+- Only the author of the blog can edit and/or delete a blog
+- Registered users have also the option of view the list of all their blogs only
+
+## How to install this application on your server/pc
+
+- Make sure that you have Apache, MySQL and PHP installed on your machine - the latest version preferrably
+- Create a MySQL database and assigned a user to it.
+- Clone this project into a specific folder in your web directory. e.g. create a folder called Blog and using the command line, run the following: 
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Laravel Sponsors
 
