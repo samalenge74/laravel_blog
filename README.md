@@ -8,7 +8,7 @@ This laravel web application has the following:
 
 - User can login and/or register 
 - Registered users are by default authors and can create new blogs
-- All blogs are listed on the landing page and can be viewed by all
+- All blogs are listed on the landing page in groups of five and can be viewed by all
 - Only logged in users can post comments and/or rate a blog
 - Only the author of the blog can edit and/or delete a blog
 - Registered users have also the option of view the list of all their blogs only
