@@ -2,14 +2,14 @@
 
 ## Laravel Blog
 
-This blog was developed as an assessment of my development skills and experience for a job application.
+This blog was developed as an assessment of my development skills and experience for a job application. It took about 2 working day to develop, test, debug and fix. 
 
 This laravel web application has the following:
 
 - User can login and/or register 
 - Registered users are by default authors and can create new blogs
 - All blogs are listed on the landing page in groups of five and can be viewed by all
-- Only logged in users can post comments and/or rate a blog
+- Only logged in users can post comments and/or rate a blog. For the sake of the assessment, the value of the average rating is rounded down into an interger
 - Only the author of the blog can edit and/or delete a blog
 - Registered users have also the option of view the list of all their blogs only
 
