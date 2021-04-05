@@ -7,6 +7,7 @@ use App\Models\User;
 use App\Models\Posts;
 use App\Models\Comments;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -76,4 +77,12 @@ class UserController extends Controller
         $data['latest_comments'] = $data['user']->comments->take(5);
         return view('admin.profile', $data);
     }
+    
+    public function logout()
+    {
+        Auth::logout();
+        return redirect('/');
+    }
+
 }
+    

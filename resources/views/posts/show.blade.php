@@ -32,11 +32,11 @@
           
           @for ($i = 1; $i <= 5; $i++)
             @if($i <= (int)$rating)
-              <input class="star star-{{$i}}" value="{{$i}}" id="star-{{$i}}" type="radio" checked name="star"/>
-              <label class="star star-{{$i}}" for="star-{{$i}}"></label>
+              <input class="star star-{{$i}}" value="{{$i}}" id="star-{{$i}}" type="radio" name="star"/>
+              <label class="star star-{{$i}} rated" for="star-{{$i}}"></label>
             @else
               <input class="star star-{{$i}}" value="{{$i}}" id="star-{{$i}}" type="radio" name="star"/>
-              <label class="star star-{{$i}}" for="star-{{$i}}"></label>
+              <label class="star star-{{$i}} unrated" for="star-{{$i}}"></label>
             @endif
           @endfor
           <!--        <input class="star star-3" value="3" id="star-3" type="radio" name="star"/>-->
